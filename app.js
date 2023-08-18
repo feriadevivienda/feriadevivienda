@@ -76,7 +76,8 @@ const main = async () => {
         database: adapterDB,
     });
 
-    QRPortalWeb();
+    QRPortalWeb({ port: 4000 }); // Cambia el puerto a 4000 (o el que desees)
 };
 
 main();
+
