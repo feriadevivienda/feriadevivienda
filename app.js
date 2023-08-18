@@ -4,7 +4,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Si requieres más información, Espere y le contestaremos al la brevedad']);
+const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Si requieres más información, espere y le contestaremos a la brevedad.']);
 
 const flowferia = addKeyword(['feria']).addAnswer(
     [
